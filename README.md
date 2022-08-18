@@ -1,7 +1,5 @@
 # Empathy in Text-based Mental Health Support
 
-For a quick overview, check out [bdata.uw.edu/empathy](http://bdata.uw.edu/empathy/). For a detailed description of our work, please read our [EMNLP 2020 publication](https://arxiv.org/pdf/2009.08441).
-
 ## Quickstart
 
 ### 1. Prerequisites
