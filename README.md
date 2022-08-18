@@ -63,16 +63,3 @@ do_validation | `boolean` | `False` | If set True, compute results on the valida
 do_test | `boolean` | `False` | If set True, compute results on the test data
 save_model | `boolean` | `False` | If set True, save the trained model  
 save_model_path | `str` | `""` | path to save model 
-
-
-## Dataset Access Instructions
-
-The Reddit portion of our collected dataset is available inside the [dataset](dataset) folder. The csv files with annotations on the three empathy communication mechanisms are `emotional-reactions-reddit.csv`, `interpretations-reddit.csv`, and `explorations-reddit.csv`. Each csv file contains six columns:
-```
-sp_id: Seeker post identifier
-rp_id: Response post identifier
-seeker_post: A support seeking post from an online user
-response_post: A response/reply posted in response to the seeker_post
-level: Empathy level of the response_post in the context of the seeker_post
-rationales: Portions of the response_post that are supporting evidences or rationales for the identified empathy level. Multiple portions are delimited by '|'
-```
